@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe ADV </title>
+    <link rel="icon" href="./other/tic-icon.ico">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>ADV Indian Coder</h1>
+    <h1>Tic Tac Toe Game</h1>
+    <div id="gameContainer">
+        <div class="player-cards">
+            <div class="player-card">
+              <p>X wins:</p>
+              <p class="x-win-count">0</p>
+            </div>
+            <div class="player-card">
+                <p>Draws:</p>
+                <p class="draw-count">0</p>
+              </div>
+            <div class="player-card">
+                <p>O wins:</p>
+                <p class="o-win-count">0</p>
+            </div>
+        </div>
+        <h2 id="statusText"></h2>
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+        </div>
+        <button id="restartBtn">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
